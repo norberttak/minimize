@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02141E7D26415E91E1D340D1 /* AccessibilityPermissionChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ABF63C744E19FBB56099F7 /* AccessibilityPermissionChecking.swift */; };
+		14285D9764B6E29BA9F0C1B8 /* ReservedShortcutChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED0BB45BC331BC2F6267CD4 /* ReservedShortcutChecker.swift */; };
+		1FED89014A246ACF4B61BF0D /* WindowMinimizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6A250C95E2D1C3230EB8F7 /* WindowMinimizer.swift */; };
+		21282105D89EA343A5E29311 /* RunningAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEDED76A2F5F270CAA3A98 /* RunningAppInfo.swift */; };
+		306C038542FF122539C61424 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA73C69366773AF5727FDC /* SettingsView.swift */; };
+		30D69B429EE2FC8C44AA1AFA /* MenuBarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AC934650A0A8F7F9A9628 /* MenuBarMenuView.swift */; };
+		3A898C789B0A7B68988B9E76 /* WindowMinimizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE3CA135B5E10A394744F0 /* WindowMinimizerTests.swift */; };
+		3FB5318F6162C7961D823E48 /* AccessibilityWindowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA5333D1E750FC0E430D9DC /* AccessibilityWindowProvider.swift */; };
+		5D77E7F753A29A6E1463D980 /* MinimizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385C0DE80B17E22E3C77434C /* MinimizeApp.swift */; };
+		5E1D7D837FD600CBA9638755 /* AccessibilityWindowProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6034DBDEAEEB9AD74DCE82 /* AccessibilityWindowProviding.swift */; };
+		629DCB3E2BD838271B3981FE /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D1AFE02A308F119A6C807 /* ShortcutManager.swift */; };
+		707E802891386781DDB796DE /* MenuBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CF12E973B9C2A25B3370D4 /* MenuBarIcon.swift */; };
+		73B989C0C3758B1866E86CFB /* ExclusionListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C88E5F3B763E484FDBC3E3 /* ExclusionListStore.swift */; };
+		842E81F7A196BD85D78EC767 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 373D994F828AC27CF785CAD8 /* KeyboardShortcuts */; };
+		8862BA459AA3003C8DA04DB0 /* AccessibilityPermissionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171CD355E75800CE9445A69A /* AccessibilityPermissionManagerTests.swift */; };
+		8A7FE2CA4C9D4DA7CDF896DB /* MinimizableWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A38DBAD0E9FF9C7CA3474 /* MinimizableWindow.swift */; };
+		99596F8519FB921F9BDC6359 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427581AA3942B21482958109 /* AppState.swift */; };
+		B16098E912C977F7A5D0FACB /* AccessibilityPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B26716E44B987D7E79291 /* AccessibilityPermissionManager.swift */; };
+		D1599B3CF447740CB423C347 /* LaunchAtLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FDCCFFDC682DC3EA73754B /* LaunchAtLoginManager.swift */; };
+		E69BD55858A413BC501975A3 /* ReservedShortcutCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DD0842CF1DC73E8EA26AA9 /* ReservedShortcutCheckerTests.swift */; };
+		EDF3B6ED8222D6C252AF965F /* ExclusionListStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD693BAF048646C475FFD3 /* ExclusionListStoreTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B4E8B53767DDB395767BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042A1B3975E4962CB1E27F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDABAE73584C1E05AF3BAA9;
+			remoteInfo = Minimize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171CD355E75800CE9445A69A /* AccessibilityPermissionManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermissionManagerTests.swift; sourceTree = "<group>"; };
+		1B5A38DBAD0E9FF9C7CA3474 /* MinimizableWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizableWindow.swift; sourceTree = "<group>"; };
+		385C0DE80B17E22E3C77434C /* MinimizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizeApp.swift; sourceTree = "<group>"; };
+		3EDD693BAF048646C475FFD3 /* ExclusionListStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusionListStoreTests.swift; sourceTree = "<group>"; };
+		427581AA3942B21482958109 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		42C88E5F3B763E484FDBC3E3 /* ExclusionListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusionListStore.swift; sourceTree = "<group>"; };
+		4ED0BB45BC331BC2F6267CD4 /* ReservedShortcutChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedShortcutChecker.swift; sourceTree = "<group>"; };
+		5CD4B9BFC0052D63B07C10C5 /* MinimizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75ABF63C744E19FBB56099F7 /* AccessibilityPermissionChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermissionChecking.swift; sourceTree = "<group>"; };
+		9EDA73C69366773AF5727FDC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AC7C7954007E6027F48F6E87 /* Minimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA5333D1E750FC0E430D9DC /* AccessibilityWindowProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityWindowProvider.swift; sourceTree = "<group>"; };
+		C36AC934650A0A8F7F9A9628 /* MenuBarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarMenuView.swift; sourceTree = "<group>"; };
+		C6CF12E973B9C2A25B3370D4 /* MenuBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIcon.swift; sourceTree = "<group>"; };
+		CFAE3CA135B5E10A394744F0 /* WindowMinimizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowMinimizerTests.swift; sourceTree = "<group>"; };
+		D2CEDED76A2F5F270CAA3A98 /* RunningAppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningAppInfo.swift; sourceTree = "<group>"; };
+		E51D1AFE02A308F119A6C807 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		E6DD0842CF1DC73E8EA26AA9 /* ReservedShortcutCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservedShortcutCheckerTests.swift; sourceTree = "<group>"; };
+		EE6034DBDEAEEB9AD74DCE82 /* AccessibilityWindowProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityWindowProviding.swift; sourceTree = "<group>"; };
+		F56B26716E44B987D7E79291 /* AccessibilityPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermissionManager.swift; sourceTree = "<group>"; };
+		F6FDCCFFDC682DC3EA73754B /* LaunchAtLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginManager.swift; sourceTree = "<group>"; };
+		FE6A250C95E2D1C3230EB8F7 /* WindowMinimizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowMinimizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA54D086265BAE3208024B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E81F7A196BD85D78EC767 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F2D3AF6ADFD311EB87FECD /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				75ABF63C744E19FBB56099F7 /* AccessibilityPermissionChecking.swift */,
+				F56B26716E44B987D7E79291 /* AccessibilityPermissionManager.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		32A682E8D77D5554F7BE4B54 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				F6FDCCFFDC682DC3EA73754B /* LaunchAtLoginManager.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		3524238B4084809B158F41D6 /* MinimizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				171CD355E75800CE9445A69A /* AccessibilityPermissionManagerTests.swift */,
+				3EDD693BAF048646C475FFD3 /* ExclusionListStoreTests.swift */,
+				E6DD0842CF1DC73E8EA26AA9 /* ReservedShortcutCheckerTests.swift */,
+				CFAE3CA135B5E10A394744F0 /* WindowMinimizerTests.swift */,
+			);
+			path = MinimizeTests;
+			sourceTree = "<group>";
+		};
+		45AB1B40523F2553918BB386 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				427581AA3942B21482958109 /* AppState.swift */,
+				385C0DE80B17E22E3C77434C /* MinimizeApp.swift */,
+				BA8FFE95475DE7524D368755 /* Exclusions */,
+				20F2D3AF6ADFD311EB87FECD /* Permissions */,
+				E3EDFDB04E2BD17541BFC231 /* Shortcuts */,
+				32A682E8D77D5554F7BE4B54 /* Startup */,
+				4D08BB20F849B3F370F1A5F4 /* UI */,
+				58ECA3071A27A6DE23CA97E6 /* WindowMinimizing */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4D08BB20F849B3F370F1A5F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF12E973B9C2A25B3370D4 /* MenuBarIcon.swift */,
+				C36AC934650A0A8F7F9A9628 /* MenuBarMenuView.swift */,
+				9EDA73C69366773AF5727FDC /* SettingsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		58ECA3071A27A6DE23CA97E6 /* WindowMinimizing */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5333D1E750FC0E430D9DC /* AccessibilityWindowProvider.swift */,
+				EE6034DBDEAEEB9AD74DCE82 /* AccessibilityWindowProviding.swift */,
+				1B5A38DBAD0E9FF9C7CA3474 /* MinimizableWindow.swift */,
+				FE6A250C95E2D1C3230EB8F7 /* WindowMinimizer.swift */,
+			);
+			path = WindowMinimizing;
+			sourceTree = "<group>";
+		};
+		850CA9E7BA1574B58E4ABAE8 /* Minimize */ = {
+			isa = PBXGroup;
+			children = (
+				45AB1B40523F2553918BB386 /* Sources */,
+			);
+			path = Minimize;
+			sourceTree = "<group>";
+		};
+		B083458817360779603C6088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7C7954007E6027F48F6E87 /* Minimize.app */,
+				5CD4B9BFC0052D63B07C10C5 /* MinimizeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8FFE95475DE7524D368755 /* Exclusions */ = {
+			isa = PBXGroup;
+			children = (
+				42C88E5F3B763E484FDBC3E3 /* ExclusionListStore.swift */,
+				D2CEDED76A2F5F270CAA3A98 /* RunningAppInfo.swift */,
+			);
+			path = Exclusions;
+			sourceTree = "<group>";
+		};
+		E3EDFDB04E2BD17541BFC231 /* Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				4ED0BB45BC331BC2F6267CD4 /* ReservedShortcutChecker.swift */,
+				E51D1AFE02A308F119A6C807 /* ShortcutManager.swift */,
+			);
+			path = Shortcuts;
+			sourceTree = "<group>";
+		};
+		EDC610B4ACFBB8B0AD90620D = {
+			isa = PBXGroup;
+			children = (
+				850CA9E7BA1574B58E4ABAE8 /* Minimize */,
+				3524238B4084809B158F41D6 /* MinimizeTests */,
+				B083458817360779603C6088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CDABAE73584C1E05AF3BAA9 /* Minimize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE61AA1E1627B395C93D5C31 /* Build configuration list for PBXNativeTarget "Minimize" */;
+			buildPhases = (
+				9EC3B0EA8A19383B1F9D7E71 /* Sources */,
+				BA54D086265BAE3208024B0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minimize;
+			packageProductDependencies = (
+				373D994F828AC27CF785CAD8 /* KeyboardShortcuts */,
+			);
+			productName = Minimize;
+			productReference = AC7C7954007E6027F48F6E87 /* Minimize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C9886413652D7072C2E842 /* MinimizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ACB1228926696CFF3433A2 /* Build configuration list for PBXNativeTarget "MinimizeTests" */;
+			buildPhases = (
+				88D5D84A6F9BCCBD5B8A1B18 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51B2835255711E3889D23D9 /* PBXTargetDependency */,
+			);
+			name = MinimizeTests;
+			packageProductDependencies = (
+			);
+			productName = MinimizeTests;
+			productReference = 5CD4B9BFC0052D63B07C10C5 /* MinimizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042A1B3975E4962CB1E27F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = F0B463A80C37D5C207DF9E5C /* Build configuration list for PBXProject "Minimize" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EDC610B4ACFBB8B0AD90620D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7EE3B960924D282155381A57 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B083458817360779603C6088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CDABAE73584C1E05AF3BAA9 /* Minimize */,
+				B9C9886413652D7072C2E842 /* MinimizeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D5D84A6F9BCCBD5B8A1B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8862BA459AA3003C8DA04DB0 /* AccessibilityPermissionManagerTests.swift in Sources */,
+				EDF3B6ED8222D6C252AF965F /* ExclusionListStoreTests.swift in Sources */,
+				E69BD55858A413BC501975A3 /* ReservedShortcutCheckerTests.swift in Sources */,
+				3A898C789B0A7B68988B9E76 /* WindowMinimizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC3B0EA8A19383B1F9D7E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02141E7D26415E91E1D340D1 /* AccessibilityPermissionChecking.swift in Sources */,
+				B16098E912C977F7A5D0FACB /* AccessibilityPermissionManager.swift in Sources */,
+				3FB5318F6162C7961D823E48 /* AccessibilityWindowProvider.swift in Sources */,
+				5E1D7D837FD600CBA9638755 /* AccessibilityWindowProviding.swift in Sources */,
+				99596F8519FB921F9BDC6359 /* AppState.swift in Sources */,
+				73B989C0C3758B1866E86CFB /* ExclusionListStore.swift in Sources */,
+				D1599B3CF447740CB423C347 /* LaunchAtLoginManager.swift in Sources */,
+				707E802891386781DDB796DE /* MenuBarIcon.swift in Sources */,
+				30D69B429EE2FC8C44AA1AFA /* MenuBarMenuView.swift in Sources */,
+				8A7FE2CA4C9D4DA7CDF896DB /* MinimizableWindow.swift in Sources */,
+				5D77E7F753A29A6E1463D980 /* MinimizeApp.swift in Sources */,
+				14285D9764B6E29BA9F0C1B8 /* ReservedShortcutChecker.swift in Sources */,
+				21282105D89EA343A5E29311 /* RunningAppInfo.swift in Sources */,
+				306C038542FF122539C61424 /* SettingsView.swift in Sources */,
+				629DCB3E2BD838271B3981FE /* ShortcutManager.swift in Sources */,
+				1FED89014A246ACF4B61BF0D /* WindowMinimizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51B2835255711E3889D23D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CDABAE73584C1E05AF3BAA9 /* Minimize */;
+			targetProxy = D0B4E8B53767DDB395767BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		294A33600DD90BEF98B7222D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3BC5AFE00715F2C925632B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norberttak.MinimizeTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minimize.app/Contents/MacOS/Minimize";
+			};
+			name = Debug;
+		};
+		4A221DCB1554BBDEB1E95DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		96FCCFEA0C1010BFD62063B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Minimize/Resources/Minimize.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Minimize;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norberttak.Minimize;
+				PRODUCT_NAME = Minimize;
+				SDKROOT = macosx;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		B2EE36DF7FD45D4766FBD368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Minimize/Resources/Minimize.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Minimize;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norberttak.Minimize;
+				PRODUCT_NAME = Minimize;
+				SDKROOT = macosx;
+				SWIFT_ENABLE_EXPLICIT_MODULES = NO;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C8ADDF8F2A4743257DD9535B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.norberttak.MinimizeTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minimize.app/Contents/MacOS/Minimize";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03ACB1228926696CFF3433A2 /* Build configuration list for PBXNativeTarget "MinimizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC5AFE00715F2C925632B70 /* Debug */,
+				C8ADDF8F2A4743257DD9535B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE61AA1E1627B395C93D5C31 /* Build configuration list for PBXNativeTarget "Minimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EE36DF7FD45D4766FBD368 /* Debug */,
+				96FCCFEA0C1010BFD62063B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0B463A80C37D5C207DF9E5C /* Build configuration list for PBXProject "Minimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294A33600DD90BEF98B7222D /* Debug */,
+				4A221DCB1554BBDEB1E95DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EE3B960924D282155381A57 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		373D994F828AC27CF785CAD8 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EE3B960924D282155381A57 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 042A1B3975E4962CB1E27F1A /* Project object */;
+}

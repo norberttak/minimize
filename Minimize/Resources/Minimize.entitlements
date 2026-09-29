@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	App Sandbox is intentionally OFF. Confirmed by testing (and by Apple DTS
+	on the developer forums) that a sandboxed app cannot use AXUIElement to
+	control windows of OTHER applications: every cross-process Accessibility
+	call fails with kAXErrorAPIDisabled, even with Accessibility permission
+	granted. There is no entitlement that lifts this restriction. Minimizing
+	other apps' windows is this app's core function, so sandbox must stay
+	off; this rules out Mac App Store distribution (see PLANNING.md).
+	-->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+</dict>
+</plist>

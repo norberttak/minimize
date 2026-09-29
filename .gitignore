@@ -60,3 +60,9 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# macOS
+.DS_Store
+
+# Release build output (DMG, archive, zip) - upload the DMG as a GitHub Release asset instead
+dist/
