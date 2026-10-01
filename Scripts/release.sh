@@ -71,4 +71,17 @@ cp -R "$APP_PATH" "$STAGING_DIR/"
 ln -s /Applications "$STAGING_DIR/Applications"
 hdiutil create -volname "$APP_NAME" -srcfolder "$STAGING_DIR" -ov -format UDZO "$DMG_PATH"
 
+echo "==> Signing DMG"
+codesign --sign "$DEVELOPER_ID_APPLICATION" --timestamp "$DMG_PATH"
+codesign --verify --strict --verbose=2 "$DMG_PATH"
+
+echo "==> Submitting DMG for notarization (this can take a few minutes)"
+xcrun notarytool submit "$DMG_PATH" --keychain-profile "$NOTARY_PROFILE" --wait
+
+echo "==> Stapling notarization ticket to DMG"
+xcrun stapler staple "$DMG_PATH"
+
+echo "==> Gatekeeper check"
+spctl --assess --type open --context context:primary-signature --verbose=2 "$DMG_PATH"
+
 echo "==> Done: $DMG_PATH"
